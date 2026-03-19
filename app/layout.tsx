@@ -13,9 +13,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Praedium — Commercial Real Estate Credit Risk Platform",
-  description:
-    "Institutional-grade credit risk analytics for commercial real estate loans. Predict probability of default with AI-powered XGBoost modeling.",
+  title: "Praedium — Credit Risk Intelligence",
+  description: "Probability of default prediction for commercial real estate loans",
+  openGraph: {
+    title: "Praedium — Credit Risk Intelligence",
+    description: "Probability of default prediction for commercial real estate loans",
+    images: [{ url: "https://praedium.dev/og_image.png" }],
+    url: "https://praedium.dev",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
